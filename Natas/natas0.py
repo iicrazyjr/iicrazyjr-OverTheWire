@@ -11,4 +11,4 @@ comments = re.findall(r'<!--(.*?)-->', r.text, re.DOTALL)
 for comment in comments:
     if "password" not in comment:
         continue
-    print(f"Natas0:{comment.split()[-1]}")
+    print(f"Natas1:{comment.split()[-1]}")
