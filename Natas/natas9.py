@@ -13,5 +13,5 @@ r = requests.get(url, auth=(user, password))
 
 result = re.findall(r"\b\w{32}\b", r.text)[1]
 
-print(result)
+print("Natas10:"+result)
 
